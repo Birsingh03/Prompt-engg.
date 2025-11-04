@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DevMastery — About Services</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- NAVBAR (same as index) -->
+  <header class="navbar">
+    <div class="nav-left">
+      <div class="brand">
+        <svg class="brand-icon" width="36" height="36" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <rect x="2" y="2" width="20" height="20" rx="4" fill="rgb(250,204,21)"></rect>
+          <path d="M6 16V8l6-4 6 4v8" fill="none" stroke="rgb(15,23,42)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="logo-text">DevMastery</span>
+      </div>
+
+      <div class="auth">
+        <button class="btn btn-ghost">Sign In</button>
+        <button class="btn btn-primary">Sign Up</button>
+      </div>
+    </div>
+
+    <nav class="nav-center" aria-label="Main navigation">
+      <a href="about.html">About Services</a>
+      <a href="features.html">Features</a>
+      <a href="subscriptions.html">Subscriptions</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <div class="nav-right">
+      <button class="hamburger" id="hamburgerAbout" aria-label="Open menu"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <div id="mobileMenu" class="mobile-menu" aria-hidden="true">
+    <a href="about.html">About Services</a>
+    <a href="features.html">Features</a>
+    <a href="subscriptions.html">Subscriptions</a>
+    <a href="contact.html">Contact Us</a>
+    <div class="mobile-auth">
+      <button class="btn btn-ghost">Sign In</button>
+      <button class="btn btn-primary">Sign Up</button>
+    </div>
+  </div>
+
+  <main>
+    <section class="page section-animate">
+      <h1>About Our Services</h1>
+      <p class="lead">
+        DevMastery offers a complete learning path for beginners:
+      </p>
+
+      <div class="content-grid">
+        <div>
+          <h3>Structured Curriculum</h3>
+          <p>Start with HTML fundamentals, progress to responsive CSS, and move into modern JavaScript patterns and tooling.</p>
+
+          <h3>Project-first Approach</h3>
+          <p>Each module contains hands-on projects that culminate in a personal portfolio you can show to employers.</p>
+        </div>
+
+        <div>
+          <h3>Mentorship & Community</h3>
+          <p>Weekly mentor sessions, active discussion forums and peer code reviews to keep you motivated.</p>
+
+          <h3>Resources & Tools</h3>
+          <p>Downloadable cheat-sheets, starter templates, and deployment guides to bring your projects online quickly.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-animate">
+    <div class="footer-inner">
+      <div class="footer-about">
+        <h4>About this website</h4>
+        <p>DevMastery is a course platform teaching web development from the ground up. Project-first, mentor-led, and built with learners in mind.</p>
+      </div>
+
+      <div class="footer-social">
+        <h4>Follow us</h4>
+        <div class="social-links">
+          <a href="#" aria-label="Twitter">Twitter</a>
+          <a href="#" aria-label="YouTube">YouTube</a>
+          <a href="#" aria-label="LinkedIn">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <small>© 2025 DevMastery. All rights reserved.</small>
+    </div>
+  </footer>
+</body>
+</html>

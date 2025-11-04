@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DevMastery — Subscriptions</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="nav-left">
+      <div class="brand">
+        <svg class="brand-icon" width="36" height="36" viewBox="0 0 24 24" aria-hidden="true">
+          <rect x="2" y="2" width="20" height="20" rx="4" fill="rgb(250,204,21)"></rect>
+          <path d="M6 16V8l6-4 6 4v8" fill="none" stroke="rgb(15,23,42)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="logo-text">DevMastery</span>
+      </div>
+
+      <div class="auth">
+        <button class="btn btn-ghost">Sign In</button>
+        <button class="btn btn-primary">Sign Up</button>
+      </div>
+    </div>
+
+    <nav class="nav-center" aria-label="Main navigation">
+      <a href="about.html">About Services</a>
+      <a href="features.html">Features</a>
+      <a href="subscriptions.html">Subscriptions</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <div class="nav-right">
+      <button class="hamburger" id="hamburgerSub" aria-label="Open menu"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <div id="mobileMenu" class="mobile-menu" aria-hidden="true">
+    <a href="about.html">About Services</a>
+    <a href="features.html">Features</a>
+    <a href="subscriptions.html">Subscriptions</a>
+    <a href="contact.html">Contact Us</a>
+    <div class="mobile-auth">
+      <button class="btn btn-ghost">Sign In</button>
+      <button class="btn btn-primary">Sign Up</button>
+    </div>
+  </div>
+
+  <main>
+    <section class="page section-animate">
+      <h1>Subscriptions</h1>
+      <p class="lead">Choose a plan that fits your pace. All plans include access to the curriculum and project files.</p>
+
+      <div class="pricing-grid">
+        <div class="pricing-card">
+          <h3>Starter</h3>
+          <p class="price">Free</p>
+          <p>14-day free trial. Limited access to beginner lessons and community.</p>
+          <button class="btn btn-ghost">Start Trial</button>
+        </div>
+
+        <div class="pricing-card featured">
+          <h3>Pro</h3>
+          <p class="price">₹999 <small>/ 6 months</small></p>
+          <p>Full course access, projects, mentor reviews and deployment guides.</p>
+          <button class="btn btn-primary">Buy — ₹999</button>
+        </div>
+
+        <div class="pricing-card">
+          <h3>Premium</h3>
+          <p class="price">₹1999 <small>/ 1 year</small></p>
+          <p>Everything in Pro + premium mentorship slots and interview prep mock sessions.</p>
+          <button class="btn btn-ghost">Buy — ₹1999</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-animate">
+    <div class="footer-inner">
+      <div class="footer-about">
+        <h4>About this website</h4>
+        <p>DevMastery is a course platform teaching web development from the ground up. Project-first, mentor-led, and built with learners in mind.</p>
+      </div>
+
+      <div class="footer-social">
+        <h4>Follow us</h4>
+        <div class="social-links">
+          <a href="#" aria-label="Twitter">Twitter</a>
+          <a href="#" aria-label="YouTube">YouTube</a>
+          <a href="#" aria-label="LinkedIn">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <small>© 2025 DevMastery. All rights reserved.</small>
+    </div>
+  </footer>
+</body>
+</html>
